@@ -1,8 +1,7 @@
 @extends('frontend.master.master')
-@section('title', 'E-Shopper')
-@section('content')   
-
-    <section id="slider"><!--slider-->
+@section('title','Trang Chủ')
+@section('content')
+	<section id="slider"><!--slider-->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -65,8 +64,8 @@
 				</div>
 			</div>
 		</div>
-    </section><!--/slider-->
-    	
+	</section><!--/slider-->
+	
 	<section>
 		<div class="container">
 			<div class="row">
@@ -756,5 +755,5 @@
 				</div>
 			</div>
 		</div>
-    </section>
+	</section>
 @endsection
